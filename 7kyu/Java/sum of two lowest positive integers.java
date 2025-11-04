@@ -16,3 +16,15 @@ class Kata{
     return numbers[0] + numbers[1];
   }             
 }
+
+// second approach
+import java.util.Arrays;
+class Kata{
+  public static long sumTwoSmallestNumbers(long[] numbers) {
+    
+    return Arrays.stream(numbers)
+      .sorted()
+      .limit(2)
+      .sum();
+  }             
+}
