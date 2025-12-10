@@ -21,8 +21,9 @@ Each solution is grouped by difficulty level (`8kyu` to `1kyu`) and then by prog
 
 ## 🧠 Languages Used
 
-- JavaScript (ES6+)
-- Python 3  
+- JavaScript
+- Python
+- Java 
 *(More to be added as I progress)*
 
 ---
