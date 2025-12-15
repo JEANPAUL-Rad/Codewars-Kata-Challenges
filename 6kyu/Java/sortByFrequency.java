@@ -5,15 +5,13 @@
 // // Returns {3, 3, 3, 5, 5, 7, 7, 2, 9}
 // // We sort by highest frequency to lowest frequency.
 // // If two elements have same frequency, we sort by increasing value.
-// More examples in test cases.
-
-package 6kyu.Java;
+// More examples in test
 
 // public class Simple frequency sort {
     
     import java.util.*;
 
-public class Solution {
+public class sortByFrequency {
     public static int[] sortByFrequency(int[] array) {
         // Step 1: Count frequency of each element
         Map<Integer, Integer> freq = new HashMap<>();
